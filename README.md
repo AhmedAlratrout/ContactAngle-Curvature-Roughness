@@ -14,9 +14,10 @@ You should have official OpenFOAM (version 1612+ in this document: https://www.o
 ## Downloading and extracting files
 Create a directory in your home (`~`) folder named "works" and extract/download the codes inside it in a folder named apps. You can choose any other folder and the scripts will work, but this ducument assumes you install the codes in "`~/works/apps`" folder.
 
-To clone this repo
+To clone and unzip this repo
 ```bash
 git clone https://github.com/AhmedAlratrout/ContactAngle-Curvature-Roughness
+tar -zxvf contactAngle.tar.gz
 cd contactAngle
 ```
 
