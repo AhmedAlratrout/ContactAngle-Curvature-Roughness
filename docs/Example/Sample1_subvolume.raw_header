@@ -1,0 +1,20 @@
+Nxyz
+dxX0
+105 97 126
+2   2   2
+0   0   0
+
+
+Comments:
+ first 9 entries above are:
+    Nx Ny Nz
+    dx dy dz
+    Xo Yo Zo
+ Nx, Ny and Nz  count for the number of columns, rows and layers respectively as written in the file
+ Optional keywords (move above Comments to activate):
+    crop	    0  299   0  299   0  299 
+    pore 	    0 0 
+    resample	1
+    ..... 
+
+growingThreshold 1 60  1 90  5  

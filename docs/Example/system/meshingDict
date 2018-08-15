@@ -1,0 +1,92 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.6                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      meshingDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+headerName Sample1_subvolume.raw_header;
+inputName Sample1_subvolume.raw;
+outputSurface  Sample1_subvolume.vtk;
+
+addLayerToCL
+{
+	inputSurface   "Sample1_subvolume.vtk";
+	outputSurface   "Sample1_subvolume_Layered.vtk";
+}
+
+
+
+surfaceSmoothing
+{
+	inputSurface   "Sample1_subvolume_Layered.vtk";
+	outputSurface   "Sample1_subvolume_Layered_Smooth.vtk";
+
+	extraRelaxFactorParIntrf   0.2;
+	
+
+kernelRadiusGaussVP	3;
+nIterationsGaussVP	20;
+relaxFactorGaussVP	0.05;
+relaxFactorGaussVPCL	0.05;
+	
+	
+	
+kernelRadiusCurvature1	12;
+nIterationsCurvature1	100;
+relaxFactorCurvature1	0.05;
+relaxFactorCurvature1CL	0.05;
+	
+	
+	
+kernelRadiusCurvature	12;
+nIterationsCurvature	100;
+relaxFactorCurvature	0.05;
+relaxFactorCurvatureCL	0.05;
+
+
+
+kernelRadiusRoughness	12;
+
+}
+
+surfaceRoughness
+{
+	inputSurface   "Sample1_subvolume_Layered.vtk";
+	outputSurface   "Sample1_subvolume_Layered_Smooth_Roughness.vtk";
+
+	//extraRelaxFactorParIntrf   0.2;
+	
+kernelRadiusRoughness	10;
+nIterationsRoughness	200;
+relaxFactorRoughness	0.05;
+relaxFactorRoughnessCL	0.05;
+}
+
+
+/// Ignore these:
+
+outputName  Sample1_subvolume.raw; //only raw accepted for now
+trimName  trimingratios;
+nSmoothing 2;
+//intactFraction (0.9 0.9 0.9);
+
+nSmoothBegin (0 0 0); 
+nSmoothEnd (0 0 0); 
+perforationDepth 0;
+perforationWidth 0;
+perforationLengthFraction 0.0;
+nCopyLayers  1;
+
+
+// ************************************************************************* //
