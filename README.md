@@ -122,7 +122,7 @@ The generated files: surface (\*.vtk), layered surface (\*\_Layered.vtk) and smo
 ## Citation
 If you use our code for your own research, we would be grateful if you cite our following publications:
 
-The original developed algorithm of contact angle and curvature measurements
+The developed algorithm for measuring contact angle and interfacial curvature in pore-space images
 ```
 @article{ALRATROUT2017158,
 title = "Automatic measurement of contact angle in pore-space images",
@@ -137,7 +137,7 @@ author = "Ahmed AlRatrout and Ali Q Raeini and Branko Bijeljic and Martin J Blun
 }
 ```
 
-The spatial correaltion 
+The spatial correaltion of contact angle and interfacial curvature in pore-space images 
 ```
 @article{doi:10.1029/2017WR022124,
 author = {AlRatrout, Ahmed Ahed Marouf and Blunt, Martin Julian and Bijeljic, Branko},
