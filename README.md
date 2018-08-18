@@ -119,3 +119,52 @@ Note: Mesh _S_ is a single face-zone mesh that represents the rock surface only.
 ## Visualization
 The generated files: surface (\*.vtk), layered surface (\*\_Layered.vtk) and smoothed surfcae (\*\_Layered\_Smooth.vtk). These files can be visualized using three-dimensional image visualization software (in this work Paraview software was used), as demonstrated in the abstract figure.
 
+## Citation
+If you use our code for your own research, we would be grateful if you cite our following publications:
+
+The original developed algorithm of contact angle and curvature measurements
+```
+@article{ALRATROUT2017158,
+title = "Automatic measurement of contact angle in pore-space images",
+journal = "Advances in Water Resources",
+volume = "109",
+pages = "158 - 169",
+year = "2017",
+issn = "0309-1708",
+doi = "https://doi.org/10.1016/j.advwatres.2017.07.018",
+url = "http://www.sciencedirect.com/science/article/pii/S0309170817303342",
+author = "Ahmed AlRatrout and Ali Q Raeini and Branko Bijeljic and Martin J Blunt"
+}
+```
+
+The spatial correaltion 
+```
+@article{doi:10.1029/2017WR022124,
+author = {AlRatrout, Ahmed Ahed Marouf and Blunt, Martin Julian and Bijeljic, Branko},
+title = {Spatial correlation of contact angle and curvature in pore-space images},
+journal = {Water Resources Research},
+volume = {0},
+number = {ja},
+pages = {},
+keywords = {Contact angle, Curvature, Spatial correlation, Wettability, pore-network, micro-CT},
+doi = {10.1029/2017WR022124},
+url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2017WR022124},
+eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2017WR022124}
+}
+```
+
+The developed algorithm for measuring surface roughness and its relationship to contact angle and interfacial curvature
+```
+@article {AlRatrout201803734,
+	author = {AlRatrout, Ahmed and Blunt, Martin J. and Bijeljic, Branko},
+	title = {Wettability in complex porous materials, the mixed-wet state, and its relationship to surface roughness},
+	year = {2018},
+	doi = {10.1073/pnas.1803734115},
+	publisher = {National Academy of Sciences},
+	issn = {0027-8424},
+	URL = {http://www.pnas.org/content/early/2018/08/16/1803734115},
+	eprint = {http://www.pnas.org/content/early/2018/08/16/1803734115.full.pdf},
+	journal = {Proceedings of the National Academy of Sciences}
+}
+
+```
