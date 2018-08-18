@@ -1,4 +1,4 @@
-<img align="right" width="40%" height="40%" src="https://github.com/AhmedAlratrout/ContactAngle-Curvature-Roughness/docs/Fig2.png"/>
+<img align="right" width="40%" height="40%" src="https://github.com/AhmedAlratrout/ContactAngle-Curvature-Roughness/blob/master/docs/Fig2.png"/>
 
 # ContactAngle-Curvature-Roughness
 Automatic measurements of contact angle, interfacial curvature and surface roughness in pore-scale 3D-images
