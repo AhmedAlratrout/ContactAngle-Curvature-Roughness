@@ -6,6 +6,9 @@ Automatic measurements of contact angle, interfacial curvature and surface rough
 ## Summary
 This document presents the implementation of codes and scripts and the instructions for using them to run the automatic measurements of contact angle, fluid/fluid interface curvature and solid surface roughness applied on segmented 3D pore-space images. This package, when installed, performs surface extraction between contact phases, smoothing the extracted surface, measuring the distributions of contact angle, fluid/fluid interface curvature and solid roughness.
 
+In the following, this document is organized into three sections. First is **Installation**, where the user can understand how to install and compile the code on his workstation. Next is **Usage**, where the user is guided how prepare his input data, run the code to analyze his input data and visualize the final results. Finally is **Citations**, here the user is refered for publications related to this work for more additional detials.
+
+
 # Installation
 
 ## Prerequisites
@@ -119,7 +122,7 @@ Note: Mesh _S_ is a single face-zone mesh that represents the rock surface only.
 ## Visualization
 The generated files: surface (\*.vtk), layered surface (\*\_Layered.vtk) and smoothed surfcae (\*\_Layered\_Smooth.vtk). These files can be visualized using three-dimensional image visualization software (in this work Paraview software was used), as demonstrated in the abstract figure.
 
-## Citation
+# Citations
 If you use our code for your own research, we would be grateful if you cite our following publications:
 
 The developed algorithm for measuring contact angle and interfacial curvature in pore-space images
