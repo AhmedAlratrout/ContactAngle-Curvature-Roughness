@@ -12,7 +12,7 @@ In the following, this document is organized into three sections. First is **Ins
 # Installation
 
 ## Prerequisites
-You should have official OpenFOAM (version 1612+ in this document: https://www.openfoam.com/releases/openfoam-v1612+) installed in your Linux machine. Paraview should be installed for visualization, preferably through system provided packages.
+You should have official OpenFOAM (version 1606+ in this document: https://www.openfoam.com/releases/openfoam-v1606+/) installed in your Linux machine. Paraview should be installed for visualization, preferably through system provided packages.
 
 ## Downloading and extracting files
 Create a directory in your home (`~`) folder named "works" and extract/download the codes inside it in a folder named apps. You can choose any other folder and the scripts will work, but this ducument assumes you install the codes in "`~/works/apps`" folder.
